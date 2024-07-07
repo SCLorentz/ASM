@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/felipes.c.lorentz/Documents/GitHub/ASM",
+            "binaryPath": "/Users/felipes.c.lorentz/Documents/GitHub/ASM/HelloWorld",
+            "binaryArgs": []
+        }
+    ]
+}

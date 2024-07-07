@@ -1,0 +1,3 @@
+executar:
+nasm -f elf64 -o func.o func.asm
+ld -o func func.o

@@ -1,3 +1,1 @@
-executar:
-nasm -f elf64 -o func.o func.asm
-ld -o func func.o
+Alguns testes que fiz usando assembly, tanto o asm x86-64 quanto o arm64
