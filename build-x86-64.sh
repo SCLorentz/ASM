@@ -11,3 +11,7 @@ as -arch $ARCH -o ./x86-64/src/func.o ./x86-64/src/func.asm
 ld -o ./.build/main-x86-64 ./x86-64/src/func.o -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path` -e _start -arch $ARCH
 
 echo "Assembly and linking completed!"
+
+echo "\nrunning script:"
+
+./.build/main-x86-64
