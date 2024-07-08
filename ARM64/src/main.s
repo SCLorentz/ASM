@@ -13,7 +13,7 @@
 ; and then call the Kernel to do it.
 _start: mov	X0, #1		; 1 = StdOut --> sys_write
 	adr	X1, helloworld 	; string to print
-	mov	X2, #22	    	; length of our string
+	mov	X2, #29	    	; length of our string
 	mov	X16, #4			; Unix write system call
 	svc	#0x80			; Call kernel to output the string
 
@@ -23,4 +23,4 @@ _start: mov	X0, #1		; 1 = StdOut --> sys_write
 	mov     X16, #1		; System call number 1 terminates this program
 	svc     #0x80		; Call kernel to terminate the program
 
-helloworld:      .ascii  "\x1b[33mHello World!\n"
+helloworld:      .ascii  "\x1b[33mHello World!\x1b[0m\n"
