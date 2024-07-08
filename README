@@ -2,3 +2,7 @@ Alguns testes que fiz usando assembly, tanto com o asm x86-64 quanto o arm64
 
 arm64, para não esquecer:
 https://developer.apple.com/documentation/xcode/writing-arm64-code-for-apple-platforms
+
+caso não funcione
+chmod +x build-arm64.sh
+chmod +x build-x86-64.sh
