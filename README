@@ -1,1 +1,4 @@
-Alguns testes que fiz usando assembly, tanto o asm x86-64 quanto o arm64
+Alguns testes que fiz usando assembly, tanto com o asm x86-64 quanto o arm64
+
+arm64, para não esquecer:
+https://developer.apple.com/documentation/xcode/writing-arm64-code-for-apple-platforms
