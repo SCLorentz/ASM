@@ -6,8 +6,8 @@ as -arch $ARCH -o ./ARM64/src/main.o ./ARM64/src/main.s
 # Link the object file into the executable
 ld -o ./.build/main-arm64 ./ARM64/src/main.o -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path` -e _start -arch $ARCH
 
-echo "Assembly and linking completed!"
+echo "Assembly and linking completed!\n"
 
-echo "\nrunning script:"
+#echo "\nrunning script:"
 
 ./.build/main-arm64
