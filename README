@@ -1,19 +1,6 @@
 ** Specialy useful at https://github.com/SCLorentz/my-ca-project-presentation
 
-Alguns testes que fiz usando assembly, tanto com o asm x86-64 quanto o arm64
+Alguns testes que fiz usando assembly, tanto com o asm x86-64 (linux) quanto o arm64 (macOS)
 
-arm64, para não esquecer:
+useful links:
 https://developer.apple.com/documentation/xcode/writing-arm64-code-for-apple-platforms
-
-execute: 
-    ./build-arm64.sh
-    ./build-x86-64.sh
-    ./devcontainer-x86-64.sh
-
-caso não funcione
-chmod +x build-arm64.sh
-chmod +x build-x86-64.sh
-chmod +x devcontainer-x86-64.sh
-
-talvez seja possivel executar a verção x86-64 do macOS, mas caso não funcione, use o devcontainer do repositorio
-instalar o nasm no devcontainer
